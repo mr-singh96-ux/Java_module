@@ -11,5 +11,6 @@ public class copy_array {
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr2[i] + " ");
         } 
+        sc.close();
     }   
 }

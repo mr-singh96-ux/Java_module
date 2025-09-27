@@ -13,5 +13,6 @@ public class averagemark {
             sum += x;
         }
         System.out.println(sum/n);
+        sc.close();
     }
 }

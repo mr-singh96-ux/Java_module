@@ -29,6 +29,7 @@ class Main
             }
         }
         System.out.println("Max: "+ max);
+        sc.close();
     }
     
 }

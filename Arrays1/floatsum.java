@@ -14,6 +14,7 @@ class floatsum{
             sums += x;
         }
         System.out.println(sums);
+        sc.close();
     }
     
 }
