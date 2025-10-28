@@ -1,5 +1,5 @@
 // whether a given linked list is sorted or not.
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

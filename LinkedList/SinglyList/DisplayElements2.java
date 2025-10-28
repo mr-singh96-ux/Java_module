@@ -1,5 +1,5 @@
 // recursive display of elements in forward and backward way.
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

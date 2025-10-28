@@ -1,5 +1,5 @@
 //Countinmg number of nodes using both looping and recursive method.
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

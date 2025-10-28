@@ -1,6 +1,6 @@
 // Display all the elements of a linked list.
 
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

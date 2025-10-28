@@ -1,5 +1,5 @@
 // Inserting a new node before first node and after a given position.
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

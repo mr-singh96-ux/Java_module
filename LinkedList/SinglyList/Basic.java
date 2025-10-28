@@ -1,5 +1,5 @@
 // Creating Multiple Nodes and Linking Them
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

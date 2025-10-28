@@ -1,5 +1,5 @@
 // Delete nodes from a linked list.
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

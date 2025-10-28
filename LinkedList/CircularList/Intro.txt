@@ -1,0 +1,25 @@
+A Circular Linked List is a special type of singly linked list where the last node connects back to the first node, forming a closed loop instead of ending with null. This means the nodes are circularly connected, allowing continuous traversal — starting from any node, you can keep moving forward and eventually reach the same node again. Since there’s no fixed beginning or end, we usually use a pointer called head to refer to one of the nodes. Circular linked lists are useful in scenarios where data needs to be accessed in a loop, such as in playlists, round-robin scheduling, or circular queues.
+There are two common representations of circular linked lists:
+
+
+First Representation (Commonly Used):
+The last node’s next pointer points to the first node.
+If the list is empty, the head is null.
+
+Example:
+head → [10] → [20] → [30]
+        ↑                ↓
+        ←---------------- 
+
+
+Second Representation (With Head Node):
+A special head node (without data) always exists and points to the first node of the list.
+Even if the list is empty, the head points to itself, keeping it circular.
+
+Example:
+[HEAD] → [10] → [20] → [30]
+   ↑                     ↓
+   ←--------------------- 
+
+
+The first representation is most commonly used, but both serve the same purpose — ensuring circular connectivity in the linked list.

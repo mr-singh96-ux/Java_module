@@ -1,5 +1,5 @@
 //insertion in a sorted list
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

@@ -1,6 +1,6 @@
 // Operations of the pointers as discussed in lecture no. 173
 
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

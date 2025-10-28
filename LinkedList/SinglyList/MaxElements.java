@@ -1,5 +1,5 @@
 // Maximum element in a Linked List using both looping and recursive method.
-package LinkedList;
+package LinkedList.SinglyList;
 import java.util.*;
 class Node{
     int data;

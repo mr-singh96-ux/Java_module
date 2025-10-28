@@ -1,6 +1,6 @@
 // delete the node by value
 
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

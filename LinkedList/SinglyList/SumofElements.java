@@ -1,5 +1,5 @@
 // Sum of elements usin g both recursive as well as looping methode.
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;

@@ -1,35 +1,36 @@
-// improvement in linear search using move top the head the key element.
-package LinkedList;
+//Search elements in linked list using linear search as binary search is not applicable in linked list. We will go with both looping and recursive method.
+package LinkedList.SinglyList;
 
 class Node{
     int data;
     Node next;
 }
 
-public class Searching1{
-    static Node first;
+public class Searching{
 
     static Node Search(Node p, int key){
-        Node q = null;
-        while( p != null){
+        while(p != null){
             if(key == p.data){
-                if(q != null){
-                q.next = p.next;
-                p.next = first;
-                first = p;
                 return p;
             }
-        }
-            q = p;
             p = p.next;
         }
         return null;
     }
+
+    static Node Search1(Node p, int key){
+        if(p == null) return null;
+        if(key == p.data){
+            return p;
+        }
+        return Search(p.next, key);
+    }
+
     public static void main(String[] args) {
-        first = new Node();
+        Node first = new Node();
         Node last, p;
 
-        int[] arr = {1,2,3,4,5,6,7};
+        int[] arr = {1,2,3,4,5,6,17};
 
         first.data = arr[0];
         first.next = null;
@@ -43,11 +44,7 @@ public class Searching1{
             last = temp;
         }
         p = first;
-        System.out.println(Search(p, 7));
-        
-        while(first != null){
-            System.out.println(first.data);
-            first = first.next;
-        }
+        System.out.println(Search(p, 17));
+        System.out.println(Search1(p, 17));
     }
 }

@@ -1,5 +1,5 @@
 //Inserting elements at the last of the LL
-package LinkedList;
+package LinkedList.SinglyList;
 
 class Node{
     int data;
