@@ -1,0 +1,9 @@
+A Doubly Linked List (DLL) is a linear data structure where each node has three parts — a pointer to the previous node, a data field, and a pointer to the next node. Unlike a singly linked list (which can only move forward), a DLL allows traversal in both forward and backward directions. This makes it useful in real-life applications like browsers (back/forward navigation) and contact lists (scrolling up or down). Each node is created by setting prev = null, assigning data (like 10), and next = null. All basic operations such as insertion, deletion, searching, and traversal are similar to a singly linked list, with the added advantage of two-way navigation.
+
+NULL ← [prev | 10 | next] ↔ [prev | 20 | next] ↔ [prev | 30 | next] → NULL
+
+Here,
+Each box represents a node.
+The left arrow (←) shows the prev link.
+The right arrow (→) shows the next link.
+The list starts with NULL (no previous node for the first) and ends with NULL (no next node for the last).
