@@ -88,7 +88,7 @@ public class infixPostfix{
         return 0;
     }
     public static void main(String[] args) {
-        String n = "a+b*c-d/e";
+        String n = "6+3-(4-5)+2";
         System.out.println(convert(n));
     }
 }
