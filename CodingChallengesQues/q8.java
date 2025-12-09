@@ -13,7 +13,6 @@ public class q8 {
             else result[i] = s.peek();
             s.push(arr[i]);
         }
-
         System.out.println(Arrays.toString(result));
     }
 }
