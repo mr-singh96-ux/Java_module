@@ -19,10 +19,7 @@ public class q15 {
             }
         }
         System.out.println(head);
-        // while(head != null){
-        //     System.out.print(head.data+" ");
-        //     head = head.next;
-        // }
+        
     }
     
 }
