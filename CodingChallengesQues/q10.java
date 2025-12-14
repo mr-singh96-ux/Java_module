@@ -4,7 +4,7 @@ import java.util.*;
 
 public class q10 {
     public static void main(String[] args) {
-        String str = "({[]}]";
+        String str = "a+(b*c)-{d/[e+f]}";
         Stack <Character> s = new Stack<>();
         boolean bal = true;
         for(char c : str.toCharArray()){
@@ -21,6 +21,9 @@ public class q10 {
                     bal = false;
                     break;
                 }
+            }
+            else{
+                continue;
             }
         }
         if(!s.isEmpty()) bal = false;
