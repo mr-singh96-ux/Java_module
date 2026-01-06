@@ -16,6 +16,14 @@ class Car{
         System.out.println("Company: "+company);
         System.out.println("Price: "+price);
     }
+
+    // @Override
+    public String toString(){
+        return String.format(
+            "Model: %s | Company: %s | Price: %.2f",
+            model, company, price
+        );
+    }
 }
 
 public class prac9{
@@ -24,5 +32,6 @@ public class prac9{
         Car c2 = new Car("Swift", "MARUTI", 1000000);
         c1.display();
         c2.display();
+        System.out.println(c2.toString());
     }
 }
