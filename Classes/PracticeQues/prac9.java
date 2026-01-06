@@ -17,7 +17,7 @@ class Car{
         System.out.println("Price: "+price);
     }
 
-    // @Override
+    @Override
     public String toString(){
         return String.format(
             "Model: %s | Company: %s | Price: %.2f",
